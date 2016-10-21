@@ -1,7 +1,10 @@
-for (var number = 100; number <= 200; number++) {
-  if (number % 3 === 0 && number % 4 === 0)  {
-    console.log("LoopyLighthouse");
-  } else  {
-    console.log(number);
-  }
+function loopyLighthouse(range, multiples, words) {
+  return range[1];
+    }
 }
+
+var range=[15, 90];
+var multiples=[2,5];
+var words=["Batty", "Beacon"];
+
+console.log(loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]))
